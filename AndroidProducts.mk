@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nad_ysl.mk
+    $(LOCAL_DIR)/weeb_ysl.mk
+
+COMMON_LUNCH_CHOICES := \
+    weeb_ysl-user \
+    weeb_ysl-userdebug \
+    weeb_ysl-eng
